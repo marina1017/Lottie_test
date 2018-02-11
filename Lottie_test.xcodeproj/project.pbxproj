@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C037A44E1F1F3DAD003C71DC /* test1.json in Resources */ = {isa = PBXBuildFile; fileRef = C037A44B1F1F3DAC003C71DC /* test1.json */; };
-		C037A44F1F1F3DAD003C71DC /* test2.json in Resources */ = {isa = PBXBuildFile; fileRef = C037A44C1F1F3DAD003C71DC /* test2.json */; };
-		C037A4501F1F3DAD003C71DC /* test3.json in Resources */ = {isa = PBXBuildFile; fileRef = C037A44D1F1F3DAD003C71DC /* test3.json */; };
-		C037A4521F2048E9003C71DC /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = C037A4511F2048E8003C71DC /* TwitterHeart.json */; };
 		C037A4601F21E7D4003C71DC /* HamburgerArrow.json in Resources */ = {isa = PBXBuildFile; fileRef = C037A45F1F21E7D4003C71DC /* HamburgerArrow.json */; };
 		C0617D2A1F1DFD230002FC0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0617D291F1DFD230002FC0A /* AppDelegate.swift */; };
 		C0617D2C1F1DFD230002FC0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0617D2B1F1DFD230002FC0A /* ViewController.swift */; };
@@ -21,10 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C037A44B1F1F3DAC003C71DC /* test1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = test1.json; path = ../../../Desktop/json/test1.json; sourceTree = "<group>"; };
-		C037A44C1F1F3DAD003C71DC /* test2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = test2.json; path = ../../../Desktop/json/test2.json; sourceTree = "<group>"; };
-		C037A44D1F1F3DAD003C71DC /* test3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = test3.json; path = ../../../Desktop/json/test3.json; sourceTree = "<group>"; };
-		C037A4511F2048E8003C71DC /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TwitterHeart.json; path = "Carthage/Checkouts/lottie-ios/Example/Assets/TwitterHeart.json"; sourceTree = SOURCE_ROOT; };
+		9C85E48A20302D0400EAD85C /* TwitterHeart.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = TwitterHeart.json; path = "Carthage/Checkouts/lottie-ios/Example/Assets/TwitterHeart.json"; sourceTree = SOURCE_ROOT; };
 		C037A45F1F21E7D4003C71DC /* HamburgerArrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = HamburgerArrow.json; path = "Carthage/Checkouts/lottie-ios/Example/Assets/HamburgerArrow.json"; sourceTree = SOURCE_ROOT; };
 		C0617D261F1DFD230002FC0A /* Lottie_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lottie_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0617D291F1DFD230002FC0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,14 +41,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C037A4551F21D0AE003C71DC /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				C037A4511F2048E8003C71DC /* TwitterHeart.json */,
-			);
-			name = "New Group";
-			sourceTree = "<group>";
-		};
 		C0617D1D1F1DFD230002FC0A = {
 			isa = PBXGroup;
 			children = (
@@ -76,11 +61,8 @@
 		C0617D281F1DFD230002FC0A /* Lottie_test */ = {
 			isa = PBXGroup;
 			children = (
-				C037A4551F21D0AE003C71DC /* New Group */,
-				C037A44B1F1F3DAC003C71DC /* test1.json */,
-				C037A44C1F1F3DAD003C71DC /* test2.json */,
+				9C85E48A20302D0400EAD85C /* TwitterHeart.json */,
 				C037A45F1F21E7D4003C71DC /* HamburgerArrow.json */,
-				C037A44D1F1F3DAD003C71DC /* test3.json */,
 				C0617D291F1DFD230002FC0A /* AppDelegate.swift */,
 				C0617D2B1F1DFD230002FC0A /* ViewController.swift */,
 				C0617D2D1F1DFD230002FC0A /* Main.storyboard */,
@@ -161,13 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0617D341F1DFD230002FC0A /* LaunchScreen.storyboard in Resources */,
-				C037A4501F1F3DAD003C71DC /* test3.json in Resources */,
 				C0617D311F1DFD230002FC0A /* Assets.xcassets in Resources */,
 				C037A4601F21E7D4003C71DC /* HamburgerArrow.json in Resources */,
 				C0617D2F1F1DFD230002FC0A /* Main.storyboard in Resources */,
-				C037A44F1F1F3DAD003C71DC /* test2.json in Resources */,
-				C037A44E1F1F3DAD003C71DC /* test1.json in Resources */,
-				C037A4521F2048E9003C71DC /* TwitterHeart.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
